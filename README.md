@@ -7,7 +7,8 @@ I used Arduino IDE version 1.8.19. With new ones I had problems wit connecting m
 NewPing for ultrasonic distance sensor - https://github.com/livetronic/Arduino-NewPing <br />
 LiquidCrystal_I2C for LCD - https://github.com/johnrickman/LiquidCrystal_I2C
 ## Components
-<img width="906" alt="clipboard_image_52e62548d4533e50" src="https://github.com/1mpalo/Parktronic-system/assets/148369119/d5ae4b3d-b8de-42ca-a154-41ecb367fadf">;
+<img width="906" alt="clipboard_image_52e62548d4533e50" src="https://github.com/1mpalo/Parktronic-system/assets/148369119/d5ae4b3d-b8de-42ca-a154-41ecb367fadf">
+
 # Realization
 We have some LED`s and ultrasonic distance sensor to signalize you about how far you are from a wall. When you get closer to it (it can be any surface) different LEDs start glowing. If the distance is okay, gree one glows, if you get closer yellow one and etc. Also a piezo statring making a sound the way you get closer. The frequency depends on the distance. The closer you get, the higher the frequency. We have an LCD which displays the distance and some phrases. If the distance is more then the max (200 sm), or if it is some problem with wiresthe, LCD displays that the distatnce is too long or a problem with wires.
 # The wiring diagram and the scheme
